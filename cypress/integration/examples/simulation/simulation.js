@@ -10,7 +10,7 @@ const simulationPage = new simulation()
 And('user creates the project successfully', function (){
     projectcreationPage.getProjecttab().click()
     projectcreationPage.getNewProjectButton().click()
-    projectcreationPage.getName().type("testing 12300")
+    projectcreationPage.getName().type("testing 12301")
     projectcreationPage.getDescription().type("Lorem Ipsum Doler Sit Amet") 
     projectcreationPage.getAddButton().click()
     cy.wait(5000)
